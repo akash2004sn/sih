@@ -1,0 +1,37 @@
+.Navbar{
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Navbar .logo{
+    width: 150px;
+    margin-top: 20px;
+}
+.navbarmenu{
+    display: flex;
+    list-style: none;
+    gap :30px;
+    color: #494949;
+    font-size: 18px;
+}
+.navbarright{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}     
+.Navbar button{
+    background: transparent;
+    background-image: url('./logo.png');
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+
+}
+.Navbar input{
+    padding: 10px 30px;
+    border-radius: 15px;
+
+}
